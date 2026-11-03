@@ -38,11 +38,11 @@ See the [evidence matrix](docs/evidence-matrix.md) for the screenshots examined 
 
 A September 9 screenshot shows the lab VM in **Stopped (deallocated)** state, supporting resource existence but not a running service. September 10 inventory screenshots do not independently verify connectivity, security posture, or every provisioning state.
 
-**No raw Azure portal screenshots are published.** Ten sanitized candidates are being prepared for private review. Subscription IDs, tenant IDs, public IPs, and other identifiers require redaction.
+Nine curated screenshot derivatives are published in the [evidence gallery](docs/published-evidence-gallery.md). The original raw archive is not published. Privacy review of small identifiers in full-resolution copies remains a separate limitation.
 
 ## Further validation
 
-- Publish sanitized deployment screenshots and resource inventory output.
+- Improve deployment and connectivity verification beyond the published inventory screenshots.
 - Recover network connectivity/NSG validation results, if preserved.
 - Add resource-lock and cleanup verification evidence.
 - Publish exact commands or scripts only when recovered or independently tested.
