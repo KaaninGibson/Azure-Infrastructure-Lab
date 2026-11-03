@@ -25,10 +25,10 @@ flowchart TD
 
 - Created resource groups, virtual networks/subnets, NSGs, a VM, and storage/disk resources.
 - Reviewed role-based access control and Azure Policy settings.
-- Configured or reviewed monitoring alerts and budget controls.
+- Reviewed monitoring and budget controls; specific successful alert/budget configuration needs screenshot or command verification.
 - Tested a resource lock and observed a `ScopeLocked` error.
 - Used Azure CLI to export an inventory of nine resources.
-- Performed resource-group teardown and checked for remaining resources.
+- Historical notes describe resource-group teardown and remaining-resource checks; independent verification of complete cleanup is not included in the published evidence.
 
 ## Evidence and limitations
 
