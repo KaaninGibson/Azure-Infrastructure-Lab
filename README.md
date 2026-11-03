@@ -40,3 +40,9 @@ A September 9 screenshot shows the lab VM in **Stopped (deallocated)** state, su
 - Recover network connectivity/NSG validation results, if preserved.
 - Add resource-lock and cleanup verification evidence.
 - Publish exact commands or scripts only when recovered or independently tested.
+
+## Technical walkthroughs and related automation
+
+- [Azure compute, networking, and storage](docs/deployment-and-networking.md)
+- [Governance, monitoring, locks, and cleanup](docs/governance-and-cleanup.md)
+- [Cloudflare Worker / PayPal webhook integration case study](docs/cloud-automation-case-study.md) — independent serverless project, **not Azure**
