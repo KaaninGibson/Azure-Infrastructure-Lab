@@ -6,7 +6,7 @@
 - Configured or reviewed budget and monitoring alert settings.
 - Tested a resource lock and encountered a `ScopeLocked` error.
 - Exported an Azure CLI inventory reporting nine resources.
-- Performed resource-group teardown and checked for orphaned resources.
+- Historical notes describe resource-group teardown and follow-up checks; the current published evidence does not independently establish complete removal of every resource or zero ongoing cost.
 
 ## What the lock test demonstrates
 
