@@ -2,6 +2,10 @@
 
 Hands-on Azure infrastructure exercises covering compute, virtual networking, storage, access control, governance, monitoring, and resource cleanup. These are historical test-environment exercises, not a continuously deployed production architecture.
 
+## What I actually tested
+
+I used Azure Portal and Azure CLI to inspect a test virtual machine, virtual networking, resource inventory, role assignments, managed disks, and resource-group governance. A resource-lock exercise and cleanup checks are documented. Some captured states were stopped, pending, or unsuccessful; the screenshots are presented as observations rather than proof of a production-ready deployment.
+
 ## Resource relationships
 
 ```mermaid
@@ -32,7 +36,7 @@ See the [evidence matrix](docs/evidence-matrix.md) for the screenshots examined 
 
 A September 9 screenshot shows the lab VM in **Stopped (deallocated)** state, supporting resource existence but not a running service. September 10 inventory screenshots do not independently verify connectivity, security posture, or every provisioning state.
 
-**No raw Azure portal screenshots are published.** Subscription IDs, tenant IDs, public IPs, and other identifiers require redaction.
+**No raw Azure portal screenshots are published.** Ten sanitized candidates are being prepared for private review. Subscription IDs, tenant IDs, public IPs, and other identifiers require redaction.
 
 ## Further validation
 
@@ -41,8 +45,8 @@ A September 9 screenshot shows the lab VM in **Stopped (deallocated)** state, su
 - Add resource-lock and cleanup verification evidence.
 - Publish exact commands or scripts only when recovered or independently tested.
 
-## Technical walkthroughs and related automation
+## Azure technical walkthroughs
 
 - [Azure compute, networking, and storage](docs/deployment-and-networking.md)
 - [Governance, monitoring, locks, and cleanup](docs/governance-and-cleanup.md)
-- [Cloudflare Worker / PayPal webhook integration case study](docs/cloud-automation-case-study.md) — independent serverless project, **not Azure**
+
