@@ -29,7 +29,7 @@ flowchart TD
 - Reviewed role-based access control and Azure Policy settings.
 - Reviewed monitoring and budget controls; specific successful alert/budget configuration needs screenshot or command verification.
 - Tested a resource lock and observed a `ScopeLocked` error.
-- Used Azure CLI to export an inventory of nine resources.
+- Used Azure CLI to export a JSON resource inventory; the published screenshot does not establish an exact exported-resource count.
 - Historical notes describe resource-group teardown and remaining-resource checks; independent verification of complete cleanup is not included in the published evidence.
 
 ## Evidence and limitations
