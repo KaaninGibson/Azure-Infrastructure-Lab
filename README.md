@@ -1,5 +1,7 @@
 # Azure Infrastructure Administration Lab
 
+**[View the published screenshot evidence gallery](docs/published-evidence-gallery.md)** — 9 screenshots with evidence limitations.
+
 Hands-on Azure infrastructure exercises covering compute, virtual networking, storage, access control, governance, monitoring, and resource cleanup. These are historical test-environment exercises, not a continuously deployed production architecture.
 
 ## What I actually tested
