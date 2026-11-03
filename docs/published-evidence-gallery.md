@@ -42,7 +42,7 @@ Resource-group metadata.
 
 ![Role-based access assignments](08_RBAC_Assignments.png)
 
-RBAC configuration, not an effective access test.
+Azure CLI role-assignment query and column headers are visible, but the cropped output does not show a complete role assignment; no effective access test is proven.
 
 ## 8. Resource-lock removal check
 
@@ -54,7 +54,7 @@ Observed lock status at queried scope.
 
 ![Azure CLI resource export](10_Azure_CLI_Resource_Export.png)
 
-CLI resource inventory/export, not cost or cleanup verification.
+Azure CLI resource-list command writes JSON and a file listing is visible; the screenshot does not independently verify the number of exported resources, cost, or complete cleanup.
 
 ## Evidence boundaries
 
