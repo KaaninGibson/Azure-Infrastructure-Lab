@@ -1,5 +1,17 @@
 # Azure Infrastructure Administration Lab
 
+## At a glance
+
+**Focus:** Azure infrastructure administration, resource inventory, and governance in a test subscription.
+
+- Created and inspected Azure VM, virtual network/subnet, NSG, disk/storage, and resource-group objects.
+- Reviewed RBAC assignments and resource governance with Azure Portal and Azure CLI.
+- Documented a resource-lock exercise that produced a `ScopeLocked` error and exported an Azure CLI JSON resource inventory.
+
+**What this demonstrates:** Azure resource organization, command-line inspection, and governance troubleshooting. **Evidence boundary:** Published screenshots do not establish successful VM connectivity, effective RBAC access, or complete resource cleanup.
+
+**Start here:** [Compute and networking](docs/deployment-and-networking.md) · [Governance and cleanup](docs/governance-and-cleanup.md) · [Screenshot gallery](docs/published-evidence-gallery.md)
+
 **[View the published screenshot evidence gallery](docs/published-evidence-gallery.md)** — 9 screenshots with evidence limitations.
 
 [Published screenshot privacy and integrity review](docs/privacy-and-integrity-review.md) — file hash verification, privacy findings, and historical Git limitations.
